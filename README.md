@@ -1,24 +1,22 @@
 # 💗 MIRYOLOVE AI
 
-### An Independent AI Project by MiryoBun
+### An Independent AI Project by Miryo Bun
 
-<p align="center">
-  <a href="https://huggingface.co/MiryoBun">🤗 Hugging Face</a> ·
-  <a href="https://huggingface.co/MiryoBun/MiryoLove-7B">💗 MiryoLove-7B</a> ·
-  <a href="https://github.com/Miryo-Bun">💻 GitHub</a>
-</p>
+[🇬🇧 English](README.md) · [🇷🇺 Русский](README.ru.md) · [🇺🇦 Українська](README.uk.md)
 
-Welcome to **MIRYOLOVE AI**, an independent AI project by MiryoBun focused on building a friendly AI assistant and exploring language model development.
+[🤗 Hugging Face](https://huggingface.co/MiryoBun) · [💗 MiryoLove-7B](https://huggingface.co/MiryoBun/MiryoLove-7B) · [💻 GitHub](https://github.com/Miryo-Bun)
 
-This repository brings together project information, model resources, documentation, and future development updates.
+Welcome to **MIRYOLOVE AI**, an independent AI project focused on building a friendly AI assistant and exploring language model development.
+
+This repository brings together project information, model resources, documentation, and development updates.
 
 ## 📖 Introduction
 
 ### 💗 MiryoLove-7B
 
-MiryoLove-7B is a language model project described as being based on **Qwen2.5-7B-Instruct**, originally developed by Qwen / Alibaba Cloud.
+MiryoLove-7B is described as a language model based on **Qwen2.5-7B-Instruct**, originally developed by Qwen / Alibaba Cloud.
 
-According to the project information, the model was fine-tuned using LoRA, with merged FP16 weights.
+According to the project description, the model was fine-tuned using LoRA, with merged FP16 weights.
 
 MIRYOLOVE AI is an independent project and is not an official Qwen or Alibaba Cloud release.
 
@@ -28,15 +26,15 @@ MIRYOLOVE AI is an independent project and is not an official Qwen or Alibaba Cl
 - **Educational Support:** Programming explanations and practice tasks.
 - **Technical Translation:** Intended support for English, Russian, and Ukrainian.
 - **Model Resources:** Model files and information hosted on Hugging Face.
-- **Independent Development:** Maintained under the MIRYOLOVE AI name by MiryoBun.
+- **Independent Development:** Developed under the MIRYOLOVE AI project name.
 
 ## 📦 Project Resources
 
 | Resource | Description |
-| --- | --- |
+|---|---|
 | [MiryoLove-7B](https://huggingface.co/MiryoBun/MiryoLove-7B) | Model repository and available files |
-| [MiryoBun on Hugging Face](https://huggingface.co/MiryoBun) | Project model profile |
-| [MiryoLove-AI on GitHub](https://github.com/Miryo-Bun/MiryoLove-AI) | Source code, documentation, and project updates |
+| [Miryo Bun on Hugging Face](https://huggingface.co/MiryoBun) | Project model profile |
+| [MIRYOLOVE AI on GitHub](https://github.com/Miryo-Bun/MiryoLove-AI) | Source code, documentation, and updates |
 
 ## 🚀 Getting Started
 
@@ -70,9 +68,9 @@ Output quality may vary by language and task. Generated code, explanations, and 
 ## 🧠 Model Information
 
 | Property | Details |
-| --- | --- |
+|---|---|
 | Project | MIRYOLOVE AI |
-| Developer | MiryoBun |
+| Developer | Miryo Bun |
 | Model | MiryoLove-7B |
 | Base Model | Qwen2.5-7B-Instruct |
 | Original Model Developer | Qwen / Alibaba Cloud |
@@ -82,7 +80,7 @@ Output quality may vary by language and task. Generated code, explanations, and 
 | Fine-tuning Dataset | Approximately 130 examples, as reported by the project |
 | Intended Languages | English, Russian, Ukrainian |
 
-The technical details above are based on the project's description and should be verified against the actual model files and training records.
+These technical details are based on the project description and should be verified against the actual model files and training records.
 
 ## ⚠️ Limitations
 
@@ -90,19 +88,19 @@ MiryoLove-7B may produce incorrect code, incomplete explanations, or inaccurate 
 
 Its capabilities should be evaluated on the intended tasks. Comprehensive benchmark results are not documented in this README.
 
-Generated outputs should be reviewed and important information independently verified.
+Generated outputs should be reviewed, and important information should be independently verified.
 
 ## 📜 License and Attribution
 
 ### MIRYOLOVE AI
 
-The original code and documentation created for MIRYOLOVE AI may be distributed under the **Apache License 2.0**, where the project owner has the rights to apply that license.
+Original code and documentation created for MIRYOLOVE AI may be distributed under the **Apache License 2.0** only where the project owner has the necessary rights to apply that license.
 
-The full license text is available in the repository's [`LICENSE`](https://github.com/Miryo-Bun/MiryoLove-AI/blob/main/LICENSE) file.
+The full license text is available in the repository's [`LICENSE`](LICENSE) file.
 
 - **License:** Apache License 2.0
 - **SPDX Identifier:** `Apache-2.0`
-- **Project License File:** [LICENSE](https://github.com/Miryo-Bun/MiryoLove-AI/blob/main/LICENSE)
+- **Project License File:** [LICENSE](LICENSE)
 - **Official License Text:** [Apache.org](https://www.apache.org/licenses/LICENSE-2.0.txt)
 - **SPDX License Information:** [SPDX.org](https://spdx.org/licenses/Apache-2.0.html)
 - **OSI License Information:** [OSI](https://opensource.org/licenses/Apache-2.0)
@@ -132,7 +130,7 @@ Potential development directions include:
 - Publishing reproducible evaluation results.
 - Improving documentation and local inference instructions.
 - Exploring additional tools and models.
-- Continuing development of the MIRYOLOVE AI project.
+- Continuing development of MIRYOLOVE AI.
 
 These are potential future directions, not promises of completed features.
 
@@ -146,8 +144,8 @@ You can also explore project resources on [Hugging Face](https://huggingface.co/
 
 ---
 
-<p align="center">
-  💗 <strong>MIRYOLOVE AI</strong><br>
-  <em>Built independently by MiryoBun.</em><br>
-  <sub>An independent AI project exploring language models and AI assistance.</sub>
-</p>
+💗 **MIRYOLOVE AI**
+
+*Created and independently developed by Miryo Bun.*
+
+An independent AI project exploring language models and AI assistance.
