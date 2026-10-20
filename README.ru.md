@@ -149,3 +149,27 @@ MiryoLove AI — независимый проект, официально не 
 *Создано и независимо развивается под именем Miryo Bun.*
 
 Независимый ИИ-проект, посвящённый исследованию языковых моделей и созданию ИИ-ассистентов.
+
+## Файлы
+
+- `miryolove_ai.py` — чат-скрипт: отвечает по MiryoWiki и Википедии (ru, uk, en), даёт примеры кода, домашние задания без решения и переводы.
+- `.gitignore` — исключает виртуальные окружения, веса модели, датасеты, логи и секреты из репозитория.
+
+## Модель
+
+Модель опубликована на Hugging Face: [MiryoBun/MiryoLove-7B](https://huggingface.co/MiryoBun/MiryoLove-7B).
+Основа — Qwen2.5-7B-Instruct (Alibaba Cloud, Apache 2.0).
+
+## Запуск
+
+Требования: Python 3.10+, PyTorch с поддержкой CUDA, `transformers`, `accelerate`, `bitsandbytes`. Для модели в 4 битах хватает видеокарты примерно с 12 ГБ памяти.
+
+```sh
+pip install torch transformers accelerate bitsandbytes
+export MIRYO_MODEL=MiryoBun/MiryoLove-7B
+python miryolove_ai.py
+```
+
+Необязательно: `MIRYOWIKI_API` задаёт адрес API вашей MediaWiki (по умолчанию `http://127.0.0.1:8081/api.php`).
+
+Примеры вопросов: `Что такое регистр в ассемблере?`, `Дай задание по циклу while`, `Кто такой Наполеон?`, `переведи на английский: Программа работает быстро.`

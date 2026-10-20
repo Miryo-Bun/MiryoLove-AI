@@ -149,3 +149,27 @@ You can also explore project resources on [Hugging Face](https://huggingface.co/
 *Created and independently developed by Miryo Bun.*
 
 An independent AI project exploring language models and AI assistance.
+
+## Files
+
+- `miryolove_ai.py` — chat script: answers from MiryoWiki and Wikipedia (ru, uk, en), gives code examples, homework tasks without solutions, and translations.
+- `.gitignore` — excludes virtual environments, model weights, datasets, logs and secrets from the repository.
+
+## Model
+
+The model is published on Hugging Face: [MiryoBun/MiryoLove-7B](https://huggingface.co/MiryoBun/MiryoLove-7B).
+It is based on Qwen2.5-7B-Instruct (Alibaba Cloud, Apache 2.0).
+
+## Run
+
+Requirements: Python 3.10+, PyTorch with CUDA, `transformers`, `accelerate`, `bitsandbytes`. A GPU with about 12 GB VRAM is enough for the 4-bit model.
+
+```sh
+pip install torch transformers accelerate bitsandbytes
+export MIRYO_MODEL=MiryoBun/MiryoLove-7B
+python miryolove_ai.py
+```
+
+Optional: `MIRYOWIKI_API` sets the address of your MediaWiki API (default `http://127.0.0.1:8081/api.php`).
+
+Examples of questions: `What is a register in Assembly?`, `Дай задание по циклу while`, `Хто такий Шевченко?`, `переведи на английский: Программа работает быстро.`
