@@ -12,19 +12,19 @@
 
 **MiryoLove AI** is an independent AI project created by Miryo Bun, focused on developing a friendly AI assistant and exploring language model development.
 
-The project focuses on programming assistance, educational support, technical explanations, and multilingual interaction.
+The project focuses on programming assistance, education, technical explanations, and multilingual interaction.
 
 ## 💗 MiryoLove-7B
 
 MiryoLove-7B is based on **Qwen2.5-7B-Instruct**, originally developed by Qwen / Alibaba Cloud.
 
 - **Base model:** Qwen2.5-7B-Instruct
-- **Fine-tuning:** LoRA
-- **Published weights:** Merged FP16
+- **Fine-tuning method:** LoRA
+- **Published weights:** Merged FP16 weights
 - **Parameters:** Approximately 7 billion
 - **Languages:** English, Russian, Ukrainian
 
-These details reflect the project's current description and should be verified against the model files and training records.
+These details are based on the project description and should be verified against the model files and training records.
 
 MiryoLove AI is an independent project and is not an official Qwen or Alibaba Cloud release.
 
@@ -33,8 +33,7 @@ MiryoLove AI is an independent project and is not an official Qwen or Alibaba Cl
 - 💻 **Programming:** Python, C, C++, Java, and Assembly.
 - 📚 **Learning:** Programming explanations and practice exercises.
 - 🌍 **Languages:** English, Russian, and Ukrainian.
-- 📖 **Knowledge:** Planned integration with MiryoWiki and Wikipedia.
-- 🧠 **AI Development:** Experimentation with language models and fine-tuning.
+- 🧠 **AI Development:** Experiments with language models and fine-tuning.
 
 ## 📂 Project Structure
 
@@ -72,27 +71,11 @@ export MIRYO_MODEL=MiryoBun/MiryoLove-7B
 python miryolove_ai.py
 ```
 
-The required hardware depends on the inference configuration, quantization, context length, and available memory. Check the model repository for current instructions.
-
-### 📖 MiryoWiki Integration
-
-The `MIRYOWIKI_API` environment variable can specify the MediaWiki API address.
-
-Default address:
-
-```text
-http://127.0.0.1:8081/api.php
-```
-
-Example:
-
-```bash
-export MIRYOWIKI_API=http://127.0.0.1:8081/api.php
-```
+Hardware requirements depend on the inference configuration, quantization, context length, and available memory. Check the model repository for current instructions before running the model.
 
 ## 🌐 Languages and Tasks
 
-MiryoLove AI is intended to support:
+MiryoLove AI is intended to support the following areas:
 
 - English-language interaction
 - Russian-language interaction
@@ -105,22 +88,22 @@ Generated code, translations, and explanations should be reviewed for accuracy.
 
 ## ⚠️ Limitations
 
-AI-generated responses may contain mistakes, incomplete explanations, or inaccurate translations.
+AI-generated responses may contain incorrect code, incomplete explanations, or inaccurate translations.
 
-Comprehensive benchmark results are not documented here. Model capabilities should be evaluated on relevant tasks.
+Comprehensive benchmark results are not documented in this README. Model capabilities should be evaluated on relevant tasks.
 
 ## 📜 License and Attribution
 
 ### MiryoLove AI
 
-Original project code and documentation may be distributed under the **Apache License 2.0**, where the project owner has the necessary rights to apply that license.
+Original project code and documentation may be distributed under the **Apache License 2.0**, provided the project owner has the necessary rights to apply this license.
 
 - **License:** Apache-2.0
 - **License file:** [`LICENSE`](LICENSE)
-- **Official license:** [Apache.org](https://www.apache.org/licenses/LICENSE-2.0.txt)
-- **SPDX:** [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html)
+- **Official license text:** [Apache.org](https://www.apache.org/licenses/LICENSE-2.0.txt)
+- **SPDX information:** [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html)
 
-Third-party models, datasets, and components may have separate licensing terms. Their licenses must be reviewed independently.
+Third-party models, datasets, and components may have different licensing terms. Review the applicable licenses before using, modifying, or redistributing them.
 
 MiryoLove AI is not officially affiliated with or endorsed by Qwen or Alibaba Cloud.
 
@@ -132,10 +115,9 @@ Potential development directions include:
 - Expanding the fine-tuning dataset.
 - Evaluating model quality.
 - Improving local installation instructions.
-- Developing MiryoWiki integration.
 - Continuing independent AI research and development.
 
-These are potential future directions, not claims of completed features.
+These are potential future directions, not claims about completed features or guaranteed updates.
 
 ## 🤝 Contact and Community
 
@@ -143,7 +125,7 @@ These are potential future directions, not claims of completed features.
 - 🤗 [Hugging Face Profile](https://huggingface.co/MiryoBun)
 - 💗 [MiryoLove-7B Model](https://huggingface.co/MiryoBun/MiryoLove-7B)
 
-Use GitHub Issues and Discussions if they are enabled in the repository.
+Use GitHub Issues and Discussions if these features are enabled in the repository.
 
 ---
 
@@ -152,5 +134,5 @@ Use GitHub Issues and Discussions if they are enabled in the repository.
   <br />
   <em>Created and independently developed by Miryo Bun.</em>
   <br />
-  An independent AI project exploring language models and AI assistance.
+  An independent AI project dedicated to exploring language models and developing AI assistants.
 </p>
