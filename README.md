@@ -2,7 +2,7 @@
 
 ### An Independent AI Project by Miryo Bun
 
-[🇬🇧 English](README.md) · [🇷🇺 Русский](README.ru.md) · [🇺🇦 Українська](README.uk.md)
+[🇬🇧 English](README.md) · [🇷🇺 Русский](README.ru.md)
 
 [🤗 Hugging Face](https://huggingface.co/MiryoBun) · [💗 MiryoLove-7B](https://huggingface.co/MiryoBun/MiryoLove-7B) · [💻 GitHub](https://github.com/Miryo-Bun/MiryoLove-AI)
 
@@ -22,7 +22,7 @@ MiryoLove-7B is based on **Qwen2.5-7B-Instruct**, originally developed by Qwen /
 - **Fine-tuning method:** LoRA
 - **Published weights:** Merged FP16 weights
 - **Parameters:** Approximately 7 billion
-- **Languages:** English, Russian, Ukrainian
+- **Languages:** English and Russian
 
 These details are based on the project description and should be verified against the model files and training records.
 
@@ -32,7 +32,7 @@ MiryoLove AI is an independent project and is not an official Qwen or Alibaba Cl
 
 - 💻 **Programming:** Python, C, C++, Java, and Assembly.
 - 📚 **Learning:** Programming explanations and practice exercises.
-- 🌍 **Languages:** English, Russian, and Ukrainian.
+- 🌍 **Languages:** English and Russian.
 - 🧠 **AI Development:** Experiments with language models and fine-tuning.
 
 ## 📂 Project Structure
@@ -79,7 +79,6 @@ MiryoLove AI is intended to support the following areas:
 
 - English-language interaction
 - Russian-language interaction
-- Ukrainian-language interaction
 - Programming education
 - Technical explanations
 - Technical translation
